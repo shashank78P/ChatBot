@@ -316,5 +316,5 @@ def getData():
     return jsonify({ "success": True, "data": output.get("data"), "followUpQuestion": output.get("followUpQuestions"), "chatId": chatId})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
     
