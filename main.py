@@ -315,6 +315,11 @@ def getData():
     chatHistorySummary[chatId] = revisedSummary
     return jsonify({ "success": True, "data": output.get("data"), "followUpQuestion": output.get("followUpQuestions"), "chatId": chatId})
 
+
+@app.route("/health")
+def health():
+    return jsonify({"success": true})
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
     
