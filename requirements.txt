@@ -1,0 +1,15 @@
+pinecone
+langchain_pinecone
+flask
+pinecone-client
+pandas
+
+langchain 
+langchain-google-genai
+langchain[docarray]
+langchain-community
+google-generativeai
+typing
+pydantic
+flask_cors 
+python-dotenv
